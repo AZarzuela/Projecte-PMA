@@ -25,8 +25,9 @@
         android:layout_alignParentStart="true"
         android:layout_toLeftOf="@+id/clr_button"
         android:layout_toStartOf="@+id/clr_button"
-        android:layout_alignBottom="@+id/clr_button"
-        android:layout_alignParentTop="true" />
+        android:layout_alignParentTop="true"
+        android:gravity="right"
+        android:layout_above="@+id/gridLayout" />
 
     <GridLayout
         android:layout_width="wrap_content"
@@ -184,6 +185,7 @@
             android:background="@color/colorigual"
             android:layout_column="3"
             android:layout_row="4"
+            android:textColor="#ffffff"
             />
 
         <Button
