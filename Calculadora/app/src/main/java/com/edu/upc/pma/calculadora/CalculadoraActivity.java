@@ -72,7 +72,7 @@ public class CalculadoraActivity extends AppCompatActivity {
                 }
                 else {
                     String num1 =sum.toString();
-                    text.setText(num1);
+                    text.setText(num1.replace(".",","));
                 }
                 break;
 
@@ -86,9 +86,10 @@ public class CalculadoraActivity extends AppCompatActivity {
 
                 }
                 else {
-                    String num2 =rest.toString();
-                    text.setText(num2);
-                    text.setText(String.format("%f",rest));
+                    //String num2 =rest.toString();
+                    //text.setText(num2);
+
+                    text.setText(String.format("%f",rest).replace(".",","));
                 }
             break;
 
@@ -101,7 +102,7 @@ public class CalculadoraActivity extends AppCompatActivity {
                 }
                 else {
                     String num3 =div.toString();
-                    text.setText(num3);
+                    text.setText(num3.replace(".",","));
                 }
             break;
 
@@ -114,7 +115,7 @@ public class CalculadoraActivity extends AppCompatActivity {
                 }
                 else {
                     String num4 =mult.toString();
-                    text.setText(num4);
+                    text.setText(num4.replace(".",","));
                 }
             break;
 
