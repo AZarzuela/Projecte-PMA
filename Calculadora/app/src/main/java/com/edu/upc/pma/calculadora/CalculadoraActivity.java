@@ -81,11 +81,14 @@ public class CalculadoraActivity extends AppCompatActivity {
                 if ( rest % 1 == 0){
                     int d = (int) Math.floor(rest);
                     String num_2 = Integer.toString(d);
+
                     text.setText(num_2);
+
                 }
                 else {
                     String num2 =rest.toString();
                     text.setText(num2);
+                    text.setText(String.format("%f",rest));
                 }
             break;
 
