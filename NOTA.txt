@@ -1,0 +1,30 @@
+Pes en punts de la nota de cada versió:
+
+G1 - Veure la posició GPS en mode text            = 1
+
+G2 - Emmagatzemar una seqüència de posicions GPS  = 1
+
+B1 - Llistar dispositius Bluetooth aprop          = 1.5
+
+B2 - Detectar si estàs aprop d'un dispositiu
+     en particular                                = 1
+
+B3 - Poder configurar el dispositiu (MAC)
+     que es correspòn amb el cotxe                = 0.5
+
+S1 - Fer un servei que mostri Log.i(...) cada
+     5 segons                                     = 1
+
+S'ajunta tot (G2 + B3 + S1):
+
+   - Poder guardar seqüències de posicions
+     si estàs aprop del cotxe, poder-lo
+     configurar i fer-ho desde el servei.         = 2
+
+   - Mostrar la última posició en Google Maps     = 2
+
+   - Mostrar l'historial i estadístiques sobre
+     els trajectes                                = 2
+
+(Suma més de 10, amb la qual cosa podeu compensar coses
+ que no estàn tan bé tal com surten a la rúbrica).
