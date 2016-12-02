@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
 
     @Override
     public void onLocationChanged(Location location) {
-
+        // TODO: Hacer onLocationChanged!!!!
     }
 
     @Override
