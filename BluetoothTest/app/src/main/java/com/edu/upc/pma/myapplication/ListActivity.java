@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -54,9 +55,14 @@ public class ListActivity extends AppCompatActivity {
             if (BluetoothDevice.ACTION_FOUND.equals(action)) {
                 BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
                 mDeviceList.add(device.getName() + "\n" + device.getAddress());
-                Log.i("test", device.getName() + "\n" + device.getAddress());
+                //Log.i("test", device.getName() + "\n" + device.getAddress());
+                String id = "F4:5C:89:9F:00:6E";
+                //Toast.makeText(ListActivity.this, device.getAddress(), Toast.LENGTH_LONG).show();
                 listView.setAdapter(new ArrayAdapter<String>(context,
                         android.R.layout.simple_list_item_1, mDeviceList));
+                if (device.getAddress().equals(id)){
+                    Toast.makeText(ListActivity.this, "Esta MAC esta cerca", Toast.LENGTH_SHORT).show();
+                }
             }
         }
     };
