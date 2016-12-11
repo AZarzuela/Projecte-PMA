@@ -24,8 +24,9 @@ public class MyService extends Service {
     public int onStartCommand(final Intent intent, int flags, int startId) {
 
         class SubTimer extends TimerTask{
+            int i=0;
             public void run(){
-                    Log.i("5-sec","ok");
+                Log.i("5-sec", String.valueOf(i++));
             }
         }
         timer = new Timer();
