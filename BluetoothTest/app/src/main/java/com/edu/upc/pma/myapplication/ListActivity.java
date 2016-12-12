@@ -17,31 +17,30 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class ListActivity extends AppCompatActivity {
 
     // Declarem referencies
     private ListView listView;
 
-    //Adaptador de la Arraylist
-    ArrayAdapter<String> adapter;
-
     // Array list perqué mostrarem el nom i la direcció MAC
     private ArrayList<String> mDeviceList = new ArrayList<String>();
     private BluetoothAdapter mBluetoothAdapter;
+    private ArrayAdapter<String> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
 
-        // Declarem la list view i el seu adaptador
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, mDeviceList);
         listView = (ListView) findViewById(R.id.listView);
 
         listView.setAdapter(adapter);
-
         // Declarem el Bluetooth Adapter
         // https://developer.android.com/reference/android/bluetooth/BluetoothAdapter.html
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
@@ -54,8 +53,10 @@ public class ListActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> av, View v, final int pos, long id) {
                 // Creacio quadre de dialeg per conectar amb un dispositiu
+                String device = mDeviceList.get(pos);
+
                 String dialog =
-                        String.format("Are you sure you want to connect with: '%s' ?");
+                        String.format("Are you sure you want to connect with: '%s' ?", device);
                 // Constructor del quadre de dialeg
                 AlertDialog.Builder builder = new AlertDialog.Builder(ListActivity.this);
 
