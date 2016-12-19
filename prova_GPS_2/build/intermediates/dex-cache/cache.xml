@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.4.0_2bb17c8c3a0db997faf4429464b402a34354b8e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.4.0_017b34efbe28f68af3ba18cef5856e207942e04f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8197651ce1af4d89b47f4545cc720bc4f8611e7d">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-9.4.0_c0b4bae359a8a934830cec337cac6bd61ae7068d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7bc6ea2bcfd6de4b7085e0f3a01616c5c8e0e2ad">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-9.4.0_58f893bda5cb09ad0a81161ad7da6c86d9b3833e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_c33920dcb228221880e45a094a02969a8f2abf54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-9.4.0_f0c6cd187353280dafad95796af4be4702f1fb8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_7afd9ec85ada26814786ab7966a53f4c22612532.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_8e03ca43e48d662fc27b3dcadfbf4a841a950b46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-contextmanager/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="72eacac37fc64e95d53abd2a041bf81a952d8615">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-contextmanager-9.4.0_89ecd4d45c8f8b316fb62465b38d7aa0483af5e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.4.0_525c221df3787b3a7e67f9242a6be9fe47b7c673.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e6e2251f3d3abf4eecd6bf6919d41fc7af497852">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-9.4.0_fdc4366e01144c82c4e71f823423c039f39848ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_d42966eabc3056ac16a27741c13a1b0ede5cecd7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="52ce632f40a373527ccb421631dc902034e08d71">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_1331d1294b7957fda97ad6bd470b6144707ca455.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-9.4.0_2cbac6223021ae9a66cc5f0f63f05c43b64b4f98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.4.0_92c629757f76ac9266c52f829d044bccd34bae93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a432629397351d3ec7f27a23d258b229b81af08f">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-9.4.0_8ec8da47d3219712072b774419c756a4e5d3a33c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-module-9.4.0_650d7ed2433a224084ae597d24bd99ff1b91f440.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_4277ec7a524b08354f1f0e0b34b325aecdc17a40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ad33eb600f3d80bdff5ce355c90d5533ade652a">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-impl-9.4.0_ec69bfc75a202b9f41cb09aa7de3c4e752a070e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.4.0_6fac2a75c4723fefc412093df024d75f8209e4f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-common-9.4.0_58e654aad620cf1159acd12caaf87cc2e690d415.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0_cce326b463be54185ba433d41a01e11f6c885749.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-9.4.0_0d2356a8da0b05a04fbdbf8d0a2c1c590e9d5ca2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.4.0_5e58567e520c77ff2a05d9d0b5204f22ef7645cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_fbf8a68f537aadf53f61c51fb72233e5e6e10112.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.4.0_705cb49e2e01b3934a49ea655daac7c3e8760f39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_0fc7c6b0daf7881c83c7d31f022e697af5d655d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e35002351f2d415093a9b564652d4b56be6a0593">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-places-9.4.0_3c77fafe95a8969130ff7a3272af1f1c64b8f173.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.android.support-mediarouter-v7-23.0.0_1335c9959412aed335a6eeeab8f601a32d05d252.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-9.4.0_82949a78147e412a794ced5ed3738dd46af1aa5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-iid-9.4.0_3d990227927836f8ded0b2eae61d0a7f6b4727b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-9.4.0_5da5a42605866c2bfaf45d64f636f57770466049.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-9.4.0_c8a4e65c900876fa713bfe704d839f78d0852a5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.4.0_bf47efe83d21f3323c84ade25e9034baa1645b35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8ce5e7a4a146dddd1d9e66b09c714a6c149916d8">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-9.4.0_493bb2aeb1fe9c527d8d957f19a66909f80fd855.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tagmanager-9.4.0_7c86f423cac44d44f79540ecb2eefefb749a47e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.4.0_85ea41aceb8162c89efd70965ed8711a909debe7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7ea53c4458b80e8ea71f7fd6831fa184c501377b">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tagmanager-api-9.4.0_bdacc9d42c05a7058154c95c4d9ecb2062a3bdbf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_15def8843d0caf41c50088a8dbf01e8ff9b57c82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.4.0_038086307a7cbf42abacd297fe5357dcdbd687b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-9.4.0_bc590bbe1d65baa1959d48a5d5f877b87394b73d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_76c998f3aeba0c5e189375a9daadc1bfa4f49fa7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_1cdaab4b3d9a5116f80d81b95863e8b0cf35f5c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.4.0_3055812842eb12805a775d9360eb294fdb7976f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="03829a2618892d438a1f59c6286699ca1f476e93">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-framework-9.4.0_bc187e76d088b521daa0510599a074b600ac372e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c10df7344e31161852c20bb8143fc37319aa10ec">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-9.4.0_2eee931efb596762aaf5391f7d3522defb6cbd01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d49118ba67a101c4895f0581f17142cba85b330b">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-9.4.0_3fa034e8342e32574f8112f79ce1c9c2daec1924.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-9.4.0_1c09574f92b017f98b2a1b9b982616ecc6d30666.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b1acf13f1b7d8232af78a30833f9a966d1394c84">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-9.4.0_02862ea6537c7273fbd551aa54204dc8731ff131.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_2d0de2ae4492221563c9487429318b0f8de0780a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-9.4.0_32b3510e7859d2f6cd95d8c8657b35b0ac3e0e8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-9.4.0_4e71ab1c796863acb66679233998c99ee200fb21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-common-9.4.0_3b242711fbd3f1f21eb85feb5202e732b97cfe84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.4.0_8906ad9d3e72e8b5a78e38c42ab29aed3185ce2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.4.0_1c38966a45811751f6f3164026247708bbdb36e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-config-9.4.0_9b15bf159c8bc61dc5616dbba0addd19990f7a4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-9.4.0_e6013ef191e82f0de95f2d1f0323a20de338e3ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-9.4.0_8ad71732d717b528f9c5d43e4621c663d478cab0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_cc514e54a5c2dc8d4b6e2a41e3eb1755492f3718.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_fff94b47d321330bf23f953816f7e563bdbd67f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.4.0_47ce2f254b32558f7dfe0d3f65a8e87cc5956025.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_99f14316461c9bfff2dab08fc21e40ec253425f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_7b8abd8db1ce53ea63dbe990a0e090686ac599ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-base-9.4.0_342957c039eff168e37b48da623c54159c2f9fce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-9.4.0_62b0826f543ee702139417926db7e6f14d3b8f7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="461e4257888c25ec05abcd91e758fe7f4949230a">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-9.4.0_226ea3d1dc0e4b480456fff299c0ef052a120531.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1cb40b76f22d5569fd05a1ab836b2403d033b668">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/proba2/app/build/intermediates/pre-dexed/debug/instant-run_f02948cc3468f7a6123e21d6764b73b23ed10175.jar" />
+    </item>
+
+</items>

@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< Updated upstream:S1 - Servei que mostra cada 5 segons/app/src/main/AndroidManifest.xml
     package="edu.upc.eet.pma.s1">
+=======
+    package="com.example.victordelgadomartin.proba_gps">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+>>>>>>> Stashed changes:proba_GPS/app/src/main/AndroidManifest.xml
 
     <application
         android:allowBackup="true"
