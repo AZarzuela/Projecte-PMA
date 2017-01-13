@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BluetoothApp</string>
+    <string name="app_name" translatable="false">BluetoothApp</string>
     <string name="conectar">Connect</string>
     <string name="calcelar">Cancel</string>
 </resources>
