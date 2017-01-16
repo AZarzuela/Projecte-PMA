@@ -1,7 +1,7 @@
-#Mon Dec 19 15:29:33 CET 2016
-base.0=/Users/victordelgadomartin/Downloads/Obtener_gps_android/AppGps1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_858fff808b8a00e84041ea8f9a17c1764a413d56
+#Mon Jan 16 19:19:21 CET 2017
+base.0=/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f5126ac5ff5f131c46a484714d03521f1c35d7ae
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=/Users/victordelgadomartin/Downloads/Obtener_gps_android/AppGps1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ad6d543b0b361e12e347f0c9141d0bbfb726877a/classes.dex
-base.1=/Users/victordelgadomartin/Downloads/Obtener_gps_android/AppGps1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ad6d543b0b361e12e347f0c9141d0bbfb726877a
-file.0=/Users/victordelgadomartin/Downloads/Obtener_gps_android/AppGps1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_858fff808b8a00e84041ea8f9a17c1764a413d56/classes.dex
+file.1=/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_52e272b93f3f7bce1f89793e2dbab293a6b9123b/classes.dex
+base.1=/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_52e272b93f3f7bce1f89793e2dbab293a6b9123b
+file.0=/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f5126ac5ff5f131c46a484714d03521f1c35d7ae/classes.dex
