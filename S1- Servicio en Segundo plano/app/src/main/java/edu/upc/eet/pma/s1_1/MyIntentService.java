@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.SystemClock;
 import android.util.Log;
 import android.view.Gravity;
+import android.widget.ListView;
 import android.widget.Toast;
 
 public class MyIntentService extends IntentService {
@@ -18,7 +19,7 @@ public class MyIntentService extends IntentService {
 
     @Override
     protected void onHandleIntent(Intent intent) {
-            Log.i("5sec ", String.valueOf(0));
+        Log.i("5sec ", String.valueOf("OnHandleIntet"));
     }
 
     public void setAlarm(Context context) {
@@ -45,4 +46,11 @@ public class MyIntentService extends IntentService {
         toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
         toast.show();
     }
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        Log.i("5sec ", String.valueOf("Oncreate"));
+    }
+
 }
