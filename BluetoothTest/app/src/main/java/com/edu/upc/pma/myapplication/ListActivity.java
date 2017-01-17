@@ -1,26 +1,29 @@
 package com.edu.upc.pma.myapplication;
 
+import android.app.ProgressDialog;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
+import android.bluetooth.BluetoothSocket;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.os.Bundle;
+import android.os.Message;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
+import android.os.Handler;
 
-import java.lang.reflect.Array;
+import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.UUID;
+
 
 public class ListActivity extends AppCompatActivity {
 
@@ -31,6 +34,10 @@ public class ListActivity extends AppCompatActivity {
     private ArrayList<String> mDeviceList = new ArrayList<String>();
     private BluetoothAdapter mBluetoothAdapter;
     private ArrayAdapter<String> adapter;
+    private UUID applicationUUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
+    private BluetoothSocket mBluetoothSocket;
+    BluetoothDevice mBluetoothDevice;
+    private ProgressDialog mBluetoothConnectProgressDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +51,9 @@ public class ListActivity extends AppCompatActivity {
         // Declarem el Bluetooth Adapter
         // https://developer.android.com/reference/android/bluetooth/BluetoothAdapter.html
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+        if (!mBluetoothAdapter.isEnabled()){
+            Toast.makeText(ListActivity.this, R.string.bt_toast, Toast.LENGTH_LONG).show();
+        }
         mBluetoothAdapter.startDiscovery();
 
         IntentFilter filter = new IntentFilter(BluetoothDevice.ACTION_FOUND);
@@ -67,13 +77,10 @@ public class ListActivity extends AppCompatActivity {
                 builder.setMessage(dialog);
 
                 //Creació del primer 'button' amb un recurs d'string
-                // DE MOMENT NO FARA RES
                 builder.setPositiveButton(R.string.conectar, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        //Aquí aniria el codi de conexio amb el dispositiu clicat
-                        //...
-
+                    getPairedDevices();
                     }
                 });
 
@@ -83,6 +90,20 @@ public class ListActivity extends AppCompatActivity {
                 builder.create().show();
             }
         });
+
+    }
+
+    private void getPairedDevices(){
+        try {
+            Thread mBluetoothConnectThread = new Thread((Runnable) this);
+            mBluetoothConnectThread.start();
+            mBluetoothSocket = mBluetoothDevice.createRfcommSocketToServiceRecord(applicationUUID);
+            mBluetoothAdapter.cancelDiscovery();
+            mBluetoothSocket.connect();
+            mHandler.sendEmptyMessage(0);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 
@@ -108,6 +129,16 @@ public class ListActivity extends AppCompatActivity {
                     //Toast.makeText(ListActivity.this, "MAC detected", Toast.LENGTH_SHORT).show();
                 } */
             }
+        }
+    };
+
+    private android.os.Handler mHandler = new android.os.Handler()
+    {
+        @Override
+        public void handleMessage(Message msg)
+        {
+            mBluetoothConnectProgressDialog.dismiss();
+            Toast.makeText(ListActivity.this, "DeviceConnected", Toast.LENGTH_SHORT).show();
         }
     };
 }
