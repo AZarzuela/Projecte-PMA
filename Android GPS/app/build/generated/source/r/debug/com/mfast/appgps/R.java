@@ -146,18 +146,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int logo=0x7f02002c;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a000e;
+        public static final int action_settings=0x7f0a000d;
         public static final int adjust_height=0x7f0a0000;
         public static final int adjust_width=0x7f0a0001;
         public static final int auto=0x7f0a0006;
         public static final int dark=0x7f0a0007;
-        public static final int edit_item=0x7f0a000a;
         public static final int icon_only=0x7f0a0003;
         public static final int light=0x7f0a0008;
         public static final int list=0x7f0a0009;
-        public static final int mensaje_id=0x7f0a000b;
-        public static final int mensaje_id2=0x7f0a000c;
-        public static final int mensaje_id3=0x7f0a000d;
+        public static final int mensaje_id=0x7f0a000a;
+        public static final int mensaje_id2=0x7f0a000b;
+        public static final int mensaje_id3=0x7f0a000c;
         public static final int none=0x7f0a0002;
         public static final int standard=0x7f0a0004;
         public static final int wide=0x7f0a0005;
