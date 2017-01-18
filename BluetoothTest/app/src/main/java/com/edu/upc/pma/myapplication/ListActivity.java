@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.os.Message;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -22,6 +23,8 @@ import android.os.Handler;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
 import java.util.UUID;
 
 
@@ -51,7 +54,15 @@ public class ListActivity extends AppCompatActivity {
         // Declarem el Bluetooth Adapter
         // https://developer.android.com/reference/android/bluetooth/BluetoothAdapter.html
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
-        if (!mBluetoothAdapter.isEnabled()){
+        Set<BluetoothDevice> pairedDevices = mBluetoothAdapter.getBondedDevices();
+
+        List<String> s = new ArrayList<String>();
+        for (BluetoothDevice bt : pairedDevices) {
+            s.add(bt.getName());
+            Log.i("info", bt.getName());
+        }
+
+        if (!mBluetoothAdapter.isEnabled()) {
             Toast.makeText(ListActivity.this, R.string.bt_toast, Toast.LENGTH_LONG).show();
         }
         mBluetoothAdapter.startDiscovery();
@@ -80,7 +91,7 @@ public class ListActivity extends AppCompatActivity {
                 builder.setPositiveButton(R.string.conectar, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                    getPairedDevices();
+
                     }
                 });
 
@@ -90,20 +101,6 @@ public class ListActivity extends AppCompatActivity {
                 builder.create().show();
             }
         });
-
-    }
-
-    private void getPairedDevices(){
-        try {
-            Thread mBluetoothConnectThread = new Thread((Runnable) this);
-            mBluetoothConnectThread.start();
-            mBluetoothSocket = mBluetoothDevice.createRfcommSocketToServiceRecord(applicationUUID);
-            mBluetoothAdapter.cancelDiscovery();
-            mBluetoothSocket.connect();
-            mHandler.sendEmptyMessage(0);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 
     }
 
@@ -129,16 +126,6 @@ public class ListActivity extends AppCompatActivity {
                     //Toast.makeText(ListActivity.this, "MAC detected", Toast.LENGTH_SHORT).show();
                 } */
             }
-        }
-    };
-
-    private android.os.Handler mHandler = new android.os.Handler()
-    {
-        @Override
-        public void handleMessage(Message msg)
-        {
-            mBluetoothConnectProgressDialog.dismiss();
-            Toast.makeText(ListActivity.this, "DeviceConnected", Toast.LENGTH_SHORT).show();
         }
     };
 }
