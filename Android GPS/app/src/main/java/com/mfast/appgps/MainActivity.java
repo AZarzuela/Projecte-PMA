@@ -34,6 +34,8 @@ import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -42,9 +44,12 @@ public class MainActivity extends Activity {
 	TextView mensaje1;
 	TextView mensaje2;
 
+	private ListView list;
 	private ArrayList<String> itemList;
 	private ArrayAdapter<String> adapter;
+
     private ArrayList<String> listposicions = new ArrayList<String>();
+	private EditText edit_item;
 
     private static final String FILENAME = "pos.txt";
 
@@ -58,6 +63,9 @@ public class MainActivity extends Activity {
 
 	private ListView listpos;
     private TextView mensaje3;
+
+	public MainActivity() {
+	}
 
 
 	public void grabar(String text) throws IOException {
@@ -78,6 +86,10 @@ public class MainActivity extends Activity {
 		mensaje2 = (TextView) findViewById(R.id.mensaje_id2);
         mensaje3 = (TextView) findViewById(R.id.mensaje_id3);
 
+		list = (ListView) findViewById(R.id.list);
+
+		edit_item = (EditText) findViewById(R.id.edit_item);
+
 		//list = (ListView) findViewById(R.id.list);
 		itemList = new ArrayList<String>();
 
@@ -88,15 +100,23 @@ public class MainActivity extends Activity {
 		mlocManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0,
 				(LocationListener) Local);
 
-		mensaje1.setText("Localizacion agregada");
-		mensaje2.setText("");
+		//mensaje1.setText("Localizacion agregada");
+		//mensaje2.setText("");
 		// ATTENTION: This was auto-generated to implement the App Indexing API.
 		// See https://g.co/AppIndexing/AndroidStudio for more information.
 		client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
 
+		itemList = new ArrayList<String>();
+		itemList.add("patatas");
+		itemList.add("zanahorias");
 
+		adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, itemList);
+
+		list.setAdapter(adapter);
 
 	}
+
+
 
 	/*
 	public void setLocation(Location loc) {
@@ -178,9 +198,11 @@ public class MainActivity extends Activity {
 			loc.getLongitude();
 			String Text = "Mi ubicacion actual es: " + "\n Lat = "
 					+ loc.getLatitude() + "\n Long = " + loc.getLongitude();
-			mensaje1.setText(Text);
+			//mensaje1.setText(Text);
 			//this.mainActivity.setLocation(loc);
 			// Crea y escribe en un fichero el "texto de prueba" y "texto de prueba2"
+
+			/*
 			try {
 				OutputStreamWriter fout =
 						new OutputStreamWriter(
@@ -205,9 +227,17 @@ public class MainActivity extends Activity {
 
 			} catch (Exception ex) {
 				Log.e("Ficheros", "Error al leer fichero desde memoria interna");
-			}
-			mensaje3.setText(texto);
+			}*/
+			//mensaje3.setText(texto);
 			//Log.i(file1.txt, String.valueOf(itemList));
+
+			String item_text =	loc.getLatitude() + "\n Long = " + loc.getLongitude();
+			itemList.add(item_text);
+			adapter.notifyDataSetChanged();
+
+
+
+
 		}
 
 

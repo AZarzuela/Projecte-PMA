@@ -151,7 +151,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int adjust_width=0x7f0a0001;
         public static final int auto=0x7f0a0006;
         public static final int dark=0x7f0a0007;
-        public static final int editbox=0x7f0a000a;
+        public static final int edit_item=0x7f0a000a;
         public static final int icon_only=0x7f0a0003;
         public static final int light=0x7f0a0008;
         public static final int list=0x7f0a0009;
