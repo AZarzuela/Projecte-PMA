@@ -18,6 +18,10 @@ import com.google.android.gms.common.api.GoogleApiClient;
 
 import java.util.ArrayList;
 
+/**
+ * Created by victordelgadomartin on 18/1/17.
+ */
+
 public class MainActivity extends Activity {
 
 	TextView mensaje1;

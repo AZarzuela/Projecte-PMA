@@ -21,42 +21,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_dbfa7552a8859dbe8a87fd038bfedcc31fc4a825/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/victordelgadomartin/Downloads/Obtener_gps_android/AppGps1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="369c89f76028a4e0d10263743c72e9fa9b124bca">
-        <dex dex="/Users/victordelgadomartin/Downloads/Obtener_gps_android/AppGps1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_858fff808b8a00e84041ea8f9a17c1764a413d56/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="b53ade1807502d78ffc9eaef1cec3a58eedb9d9e">
-        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_52e272b93f3f7bce1f89793e2dbab293a6b9123b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_0cb3861a30033ae53bdbcd5e96ac754e21380418/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -84,6 +48,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_dbfa7552a8859dbe8a87fd038bfedcc31fc4a825/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/victordelgadomartin/Downloads/Obtener_gps_android/AppGps1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="369c89f76028a4e0d10263743c72e9fa9b124bca">
+        <dex dex="/Users/victordelgadomartin/Downloads/Obtener_gps_android/AppGps1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_858fff808b8a00e84041ea8f9a17c1764a413d56/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -93,12 +75,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="46c0f4faefce19c481e008ae42cdb1ea1be72af5">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_52e272b93f3f7bce1f89793e2dbab293a6b9123b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/victordelgadomartin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
         <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.0.0_58ccf7e6e652cb023712c7bbab727c6e469e87eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_0cb3861a30033ae53bdbcd5e96ac754e21380418/classes.dex" />
     </item>
 
 </items>
