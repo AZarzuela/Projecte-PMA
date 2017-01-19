@@ -37,10 +37,10 @@ public class ListActivity extends AppCompatActivity {
     private ArrayList<String> mDeviceList = new ArrayList<String>();
     private BluetoothAdapter mBluetoothAdapter;
     private ArrayAdapter<String> adapter;
-    private UUID applicationUUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
     private BluetoothSocket mBluetoothSocket;
     BluetoothDevice mBluetoothDevice;
     private ProgressDialog mBluetoothConnectProgressDialog;
+    private final static int REQUEST_ENABLE_BT = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,19 +56,26 @@ public class ListActivity extends AppCompatActivity {
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         Set<BluetoothDevice> pairedDevices = mBluetoothAdapter.getBondedDevices();
 
+        if(!mBluetoothAdapter.isEnabled()){
+            Intent enabledBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+            startActivityForResult(enabledBtIntent, REQUEST_ENABLE_BT);
+        }
+
         List<String> s = new ArrayList<String>();
         for (BluetoothDevice bt : pairedDevices) {
             s.add(bt.getName());
             Log.i("info", bt.getName());
         }
 
-        if (!mBluetoothAdapter.isEnabled()) {
+        /*if (!mBluetoothAdapter.isEnabled()) {
             Toast.makeText(ListActivity.this, R.string.bt_toast, Toast.LENGTH_LONG).show();
-        }
-        mBluetoothAdapter.startDiscovery();
+        }*/
 
-        IntentFilter filter = new IntentFilter(BluetoothDevice.ACTION_FOUND);
-        registerReceiver(mReceiver, filter);
+            mBluetoothAdapter.startDiscovery();
+
+            IntentFilter filter = new IntentFilter(BluetoothDevice.ACTION_FOUND);
+            registerReceiver(mReceiver, filter);
+
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -111,8 +118,10 @@ public class ListActivity extends AppCompatActivity {
     }
 
     private final BroadcastReceiver mReceiver = new BroadcastReceiver() {
+
         @Override
         public void onReceive(Context context, Intent intent) {
+
             String action = intent.getAction();
             if (BluetoothDevice.ACTION_FOUND.equals(action)) {
                 BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
