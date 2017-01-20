@@ -37,10 +37,8 @@ public class ListActivity extends AppCompatActivity {
     private ArrayList<String> mDeviceList = new ArrayList<String>();
     private BluetoothAdapter mBluetoothAdapter;
     private ArrayAdapter<String> adapter;
-    private BluetoothSocket mBluetoothSocket;
-    BluetoothDevice mBluetoothDevice;
-    private ProgressDialog mBluetoothConnectProgressDialog;
     private final static int REQUEST_ENABLE_BT = 1;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,27 +59,31 @@ public class ListActivity extends AppCompatActivity {
             startActivityForResult(enabledBtIntent, REQUEST_ENABLE_BT);
         }
 
-        List<String> s = new ArrayList<String>();
+
+        final List<String> s = new ArrayList<String>();
         for (BluetoothDevice bt : pairedDevices) {
-            s.add(bt.getName());
-            Log.i("info", bt.getName());
+            s.add(bt.getName() + "\n" + bt.getAddress());
+            Log.i("info", bt.getName() + "\n" + bt.getAddress());
         }
 
-        /*if (!mBluetoothAdapter.isEnabled()) {
+        listView.setAdapter(new ArrayAdapter<String>(this,
+                android.R.layout.simple_list_item_1, s));
+        /*
+        if (!mBluetoothAdapter.isEnabled()) {
             Toast.makeText(ListActivity.this, R.string.bt_toast, Toast.LENGTH_LONG).show();
         }*/
 
             mBluetoothAdapter.startDiscovery();
 
             IntentFilter filter = new IntentFilter(BluetoothDevice.ACTION_FOUND);
-            registerReceiver(mReceiver, filter);
+            //registerReceiver(mReceiver, filter);
 
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> av, View v, final int pos, long id) {
                 // Creacio quadre de dialeg per conectar amb un dispositiu
-                String device = mDeviceList.get(pos);
+                String device = s.get(pos);
 
                 String dialog =
                         String.format("Are you sure you want to connect with: '%s' ?", device);
@@ -110,7 +112,7 @@ public class ListActivity extends AppCompatActivity {
         });
 
     }
-
+/*
     @Override
     protected void onDestroy() {
         unregisterReceiver(mReceiver);
@@ -131,10 +133,9 @@ public class ListActivity extends AppCompatActivity {
                 //Toast.makeText(ListActivity.this, device.getAddress(), Toast.LENGTH_LONG).show();
                 listView.setAdapter(new ArrayAdapter<String>(context,
                         android.R.layout.simple_list_item_1, mDeviceList));
-                /* if (device.getAddress().equals(id)){
-                    //Toast.makeText(ListActivity.this, "MAC detected", Toast.LENGTH_SHORT).show();
-                } */
             }
         }
     };
+*/
+
 }
