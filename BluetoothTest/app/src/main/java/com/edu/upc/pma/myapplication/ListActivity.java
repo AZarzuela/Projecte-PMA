@@ -34,46 +34,56 @@ public class ListActivity extends AppCompatActivity {
     private ListView listView;
 
     // Array list perqué mostrarem el nom i la direcció MAC
-    private ArrayList<String> mDeviceList = new ArrayList<String>();
+
     private BluetoothAdapter mBluetoothAdapter;
-    private ArrayAdapter<String> adapter;
+    private ArrayAdapter<DeviceItem> adapter;
     private final static int REQUEST_ENABLE_BT = 1;
+    private static final int BOND_BONDED = 12;
+    private static final int BOND_NONE = 10;
+    final BluetoothDevice bt = null;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
+        final List<DeviceItem> s = new ArrayList<DeviceItem>();
 
-        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, mDeviceList);
+        adapter = new ArrayAdapter<DeviceItem>(this, android.R.layout.simple_list_item_1, s);
         listView = (ListView) findViewById(R.id.listView);
 
         listView.setAdapter(adapter);
         // Declarem el Bluetooth Adapter
         // https://developer.android.com/reference/android/bluetooth/BluetoothAdapter.html
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
-        Set<BluetoothDevice> pairedDevices = mBluetoothAdapter.getBondedDevices();
+        final Set<BluetoothDevice> pairedDevices = mBluetoothAdapter.getBondedDevices();
 
         if(!mBluetoothAdapter.isEnabled()){
             Intent enabledBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
             startActivityForResult(enabledBtIntent, REQUEST_ENABLE_BT);
         }
 
+        //Después de emparejado, el teléfono se conectará automáticamente al accesorio o dispositivo
+        // cuando esté dentro de su alcance y el Bluetooth del teléfono esté activado.
 
-        final List<String> s = new ArrayList<String>();
         for (BluetoothDevice bt : pairedDevices) {
-            s.add(bt.getName() + "\n" + bt.getAddress());
-            Log.i("info", bt.getName() + "\n" + bt.getAddress());
+            s.add(new DeviceItem(bt.getName(), bt.getAddress(), bt.getBondState()));
+                Log.i("info", bt.getName() + "\n" + bt.getAddress());
+                Log.i("info", String.valueOf(bt.getBondState()));
+            if(bt.getBondState() == BOND_BONDED){
+                Log.i("info", "PRUEBA");
+
+            }
         }
 
-        listView.setAdapter(new ArrayAdapter<String>(this,
+        listView.setAdapter(new ArrayAdapter<DeviceItem>(this,
                 android.R.layout.simple_list_item_1, s));
         /*
         if (!mBluetoothAdapter.isEnabled()) {
             Toast.makeText(ListActivity.this, R.string.bt_toast, Toast.LENGTH_LONG).show();
         }*/
 
-            mBluetoothAdapter.startDiscovery();
+            //mBluetoothAdapter.startDiscovery();
 
             IntentFilter filter = new IntentFilter(BluetoothDevice.ACTION_FOUND);
             //registerReceiver(mReceiver, filter);
@@ -82,8 +92,10 @@ public class ListActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> av, View v, final int pos, long id) {
+
                 // Creacio quadre de dialeg per conectar amb un dispositiu
-                String device = s.get(pos);
+                final int state = s.get(pos).getConnected();
+                final String device = s.get(pos).getDeviceName();
 
                 String dialog =
                         String.format("Are you sure you want to connect with: '%s' ?", device);
@@ -100,6 +112,8 @@ public class ListActivity extends AppCompatActivity {
                 builder.setPositiveButton(R.string.conectar, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
+                        Toast.makeText(ListActivity.this, String.valueOf(state), Toast.LENGTH_SHORT).show();
+                        Log.i("info", String.valueOf(device));
 
                     }
                 });
