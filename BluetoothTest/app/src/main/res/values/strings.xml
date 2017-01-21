@@ -4,4 +4,7 @@
     <string name="cancelar">Cancel</string>
     <string name="ok">The device is close.</string>
     <string name="ko">The device is far away.</string>
+    <string name="no_compatible">Not compatible</string>
+    <string name="no_suportado">Your phone does not support Bluetooth</string>
+    <string name="salir">Exit</string>
 </resources>

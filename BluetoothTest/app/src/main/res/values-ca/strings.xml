@@ -4,7 +4,9 @@
     <string name="bt_toast"></string>
     <string name="cancelar">Cancel·lar</string>
     <string name="conectar">Connectar</string>
-    <string name="ko">El dispositiu està lluy.</string>
+    <string name="ko">El dispositiu està lluny</string>
     <string name="ok">El dispositiu està aprop.</string>
-    <string name="connect_with">Estàs segur que vols conectarte amb</string>
+    <string name="no_compatible">No compatible</string>
+    <string name="no_suportado">El teu teléfon no suporta el bluetooth</string>
+    <string name="salir">Sortir</string>
 </resources>

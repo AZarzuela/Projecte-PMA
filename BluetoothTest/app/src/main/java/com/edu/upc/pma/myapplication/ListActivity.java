@@ -58,6 +58,19 @@ public class ListActivity extends AppCompatActivity {
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         final Set<BluetoothDevice> pairedDevices = mBluetoothAdapter.getBondedDevices();
 
+        if (mBluetoothAdapter == null) {
+            new AlertDialog.Builder(this)
+                    .setTitle(R.string.no_compatible)
+                    .setMessage(R.string.no_suportado)
+                    .setPositiveButton(R.string.salir, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            System.exit(0);
+                        }
+                    })
+                    .setIcon(android.R.drawable.ic_dialog_alert)
+                    .show();
+        }
+
         if(!mBluetoothAdapter.isEnabled()){
             Intent enabledBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
             startActivityForResult(enabledBtIntent, REQUEST_ENABLE_BT);
