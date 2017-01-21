@@ -5,27 +5,47 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="26698339774050"
+    timestamp="29583352215874"
     token="2573380332615734501"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="R_CLASS_CHANGE" >
 
     <task
         name="javac"
-        duration="217" />
+        duration="247" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="8" />
+        duration="41" />
     <task
         name="verifier"
-        duration="1" />
+        duration="2" />
 
     <artifact
-        location="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+        type="DEX" />
 
+    <build
+        timestamp="29379322113709"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="29583352215874"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
+    </build>
     <build
         timestamp="91452625719757"
         verifier="FULL_BUILD_REQUESTED" >

@@ -4,6 +4,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -36,6 +39,27 @@ public class principal extends Activity {
             }
         });
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu main){
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main, main);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.gps:
+                Intent data = new Intent(this,MainActivity.class);
+                data.putStringArrayListExtra("List",itemList);
+                setResult(RESULT_OK,data);
+                startActivityForResult(data,0);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
 
     }
 

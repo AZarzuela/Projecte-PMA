@@ -10,6 +10,9 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -82,6 +85,35 @@ public class MainActivity extends Activity {
 
 		client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
 		list.setAdapter(adapter);
+
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu main){
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.main, main);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()){
+			case R.id.gps:
+				Intent data = new Intent(this,MainActivity.class);
+				data.putStringArrayListExtra("List",itemList);
+				setResult(RESULT_OK,data);
+				startActivityForResult(data,0);
+				return true;
+			case R.id.AppGps:
+				Intent data2 = new Intent(this,principal.class);
+				data2.putStringArrayListExtra("List",itemList);
+				setResult(RESULT_OK,data2);
+				startActivityForResult(data2,0);
+				return true;
+
+			default:
+				return super.onOptionsItemSelected(item);
+		}
 
 	}
 
