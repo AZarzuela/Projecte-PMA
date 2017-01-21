@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BluetoothApp</string>
+    <string name="bt_toast"></string>
+    <string name="cancelar">Cancel·lar</string>
+    <string name="conectar">Connectar</string>
+    <string name="ko">El dispositiu està lluy.</string>
+    <string name="ok">El dispositiu està aprop.</string>
+    <string name="connect_with">Estàs segur que vols conectarte amb</string>
+</resources>

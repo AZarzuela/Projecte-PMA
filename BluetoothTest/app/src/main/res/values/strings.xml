@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name" translatable="false">BluetoothApp</string>
     <string name="conectar">Connect</string>
-    <string name="calcelar">Cancel</string>
-    <string name="bt_toast">No bluetooth detected. Please activate it and restart the aplication.</string>
+    <string name="cancelar">Cancel</string>
+    <string name="ok">The device is close.</string>
+    <string name="ko">The device is far away.</string>
 </resources>

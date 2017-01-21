@@ -78,10 +78,6 @@ public class ListActivity extends AppCompatActivity {
 
         listView.setAdapter(new ArrayAdapter<DeviceItem>(this,
                 android.R.layout.simple_list_item_1, s));
-        /*
-        if (!mBluetoothAdapter.isEnabled()) {
-            Toast.makeText(ListActivity.this, R.string.bt_toast, Toast.LENGTH_LONG).show();
-        }*/
 
             //mBluetoothAdapter.startDiscovery();
 
@@ -98,7 +94,7 @@ public class ListActivity extends AppCompatActivity {
                 final String device = s.get(pos).getDeviceName();
 
                 String dialog =
-                        String.format("Are you sure you want to connect with: '%s' ?", device);
+                        String.format("Estás seguro que quieres conectarte con: '%s' ?", device);
                 // Constructor del quadre de dialeg
                 AlertDialog.Builder builder = new AlertDialog.Builder(ListActivity.this);
 
@@ -112,27 +108,31 @@ public class ListActivity extends AppCompatActivity {
                 builder.setPositiveButton(R.string.conectar, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Toast.makeText(ListActivity.this, String.valueOf(state), Toast.LENGTH_SHORT).show();
+                        if(state == BOND_BONDED){
+                            Toast.makeText(ListActivity.this, R.string.ok, Toast.LENGTH_SHORT).show();
+                        } else if(state == BOND_NONE){
+                            Toast.makeText(ListActivity.this, R.string.ko, Toast.LENGTH_SHORT).show();
+                        }
                         Log.i("info", String.valueOf(device));
 
                     }
                 });
 
                 //Creació del segon 'button' amb un recurs d'string
-                builder.setNegativeButton(R.string.calcelar, null);
+                builder.setNegativeButton(R.string.cancelar, null);
 
                 builder.create().show();
             }
         });
 
     }
-/*
+
     @Override
     protected void onDestroy() {
-        unregisterReceiver(mReceiver);
         super.onDestroy();
     }
 
+/*
     private final BroadcastReceiver mReceiver = new BroadcastReceiver() {
 
         @Override
