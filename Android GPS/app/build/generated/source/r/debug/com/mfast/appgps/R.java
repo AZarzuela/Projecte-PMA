@@ -150,8 +150,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int adjust_height=0x7f0a0000;
         public static final int adjust_width=0x7f0a0001;
         public static final int auto=0x7f0a0006;
+        public static final int blutoth=0x7f0a0010;
         public static final int button=0x7f0a000d;
         public static final int dark=0x7f0a0007;
+        public static final int gps=0x7f0a000f;
         public static final int icon_only=0x7f0a0003;
         public static final int light=0x7f0a0008;
         public static final int list=0x7f0a0009;
@@ -171,6 +173,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     }
     public static final class menu {
         public static final int main=0x7f090000;
+        public static final int menu=0x7f090001;
     }
     public static final class string {
         public static final int action_settings=0x7f04001d;

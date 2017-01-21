@@ -2,6 +2,9 @@ package com.mfast.appgps;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
+import android.location.Address;
+import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -16,7 +19,10 @@ import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
 
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
 
 /**
  * Created by victordelgadomartin on 18/1/17.
@@ -26,9 +32,10 @@ public class MainActivity extends Activity {
 
 	TextView mensaje1;
 	TextView mensaje2;
-
+	private int i=0;
 	private ListView list;
 	private ArrayList<String> itemList;
+	private ArrayList<String> intent_data;
 	private ArrayAdapter<String> adapter;
     private ArrayList<String> listposicions = new ArrayList<String>();
 
@@ -39,6 +46,8 @@ public class MainActivity extends Activity {
 
 	private ListView listpos;
     private TextView mensaje3;
+
+
 
 	public MainActivity() {
 	}
@@ -56,6 +65,9 @@ public class MainActivity extends Activity {
 
 		//list = (ListView) findViewById(R.id.list);
 		itemList = new ArrayList<String>();
+		Intent intent = getIntent();
+		itemList.addAll(intent.getStringArrayListExtra("List"));
+
 		adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, itemList);
 		if(savedInstanceState != null){
 			itemList.addAll(savedInstanceState.getStringArrayList("List"));
@@ -68,15 +80,7 @@ public class MainActivity extends Activity {
 		mlocManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0,
 				(LocationListener) Local);
 
-		//mensaje1.setText("Localizacion agregada");
-		//mensaje2.setText("");
-
 		client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
-
-
-
-
-
 		list.setAdapter(adapter);
 
 	}
@@ -87,8 +91,22 @@ public class MainActivity extends Activity {
 		super.onSaveInstanceState(savedInstanceState);
 	}
 
+	public void onBackPressed() {
+		pasar2();
+		return;
+	}
 
-	/*
+	private void pasar2() {
+		Intent pasar = new Intent(this,principal.class);
+		pasar.putStringArrayListExtra("List",itemList);
+		setResult(RESULT_OK,pasar);
+		startActivity(pasar);
+	}
+
+
+
+
+
 	public void setLocation(Location loc) {
 		//Obtener la direccion de la calle a partir de la latitud y la longitud 
 		if (loc.getLatitude() != 0.0 && loc.getLongitude() != 0.0) {
@@ -98,10 +116,9 @@ public class MainActivity extends Activity {
 						loc.getLatitude(), loc.getLongitude(), 1);
 				if (!list.isEmpty()) {
 					Address DirCalle = list.get(0);
-					mensaje2.setText("Mi direccion es: \n"
-							+ DirCalle.getAddressLine(0));
-
-                    mensaje3.setText("hola");
+					String item_text2 = "Mi direccion es: "
+							+ DirCalle.getAddressLine(0);
+					itemList.add(item_text2);
 
 				}
 
@@ -109,7 +126,7 @@ public class MainActivity extends Activity {
 				e.printStackTrace();
 			}
 		}
-	}*/
+	}
 
 
 	public Action getIndexApiAction() {
@@ -157,11 +174,13 @@ public class MainActivity extends Activity {
 
 			loc.getLatitude();
 			loc.getLongitude();
-			String Text = "Mi ubicacion actual es: " + "\n Lat = "
-					+ loc.getLatitude() + "\n Long = " + loc.getLongitude();
-			String item_text =	loc.getLatitude() + "\n Long = " + loc.getLongitude();
+			/*String Text = "Mi ubicacion actual es: " + "\n Lat = "
+					+ loc.getLatitude() + "\n Long = " + loc.getLongitude();*/
+			String item_text =	String.valueOf(i)+ "- Lat =" + loc.getLatitude() + " Long = " + loc.getLongitude();
 			itemList.add(item_text);
+			setLocation(loc);
 			adapter.notifyDataSetChanged();
+			i++;
 		}
 
 		@Override
