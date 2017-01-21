@@ -26,5 +26,10 @@ public class DeviceItem {
         this.address = address;
         this.connected = connected;
     }
+
+    @Override
+    public String toString() {
+        return deviceName + "\n" + getAddress();
+    }
 }
 
