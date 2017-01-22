@@ -22,9 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ArrayList<PositionItem> itemList;
     */
-
-    private ListView list;
-    private String[] sistemas = {"av colon; 123.22222; 24233543","av aaaaaaa; 1454353.22222; 2424343.33543" };
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,9 +35,8 @@ public class MainActivity extends AppCompatActivity {
         startService(intent);
 
         Log.i("5sec ", String.valueOf("StartService"));
-        //TODO: CREAR UN FICHERO:
 
-
+/*
         list = (ListView)findViewById(R.id.list);
         ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, sistemas);
         list.setAdapter(adaptador);
