@@ -19,7 +19,7 @@ public class MyIntentService extends IntentService {
 
     @Override
     protected void onHandleIntent(Intent intent) {
-        Log.i("5sec ", String.valueOf("OnHandleIntet"));
+        Log.i("info", "pos");
     }
 
     public void setAlarm(Context context) {
@@ -33,7 +33,7 @@ public class MyIntentService extends IntentService {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
 
-        Toast.makeText(this,"Service Started...",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, R.string.start ,Toast.LENGTH_SHORT).show();
         setAlarm(this);
         return super.onStartCommand(intent, flags, startId);
 
@@ -42,7 +42,7 @@ public class MyIntentService extends IntentService {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        Toast toast = Toast.makeText(this,"Stopped 5 sec",Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(this, R.string.stopped ,Toast.LENGTH_SHORT);
         toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
         toast.show();
     }
@@ -50,7 +50,6 @@ public class MyIntentService extends IntentService {
     @Override
     public void onCreate() {
         super.onCreate();
-        Log.i("5sec ", String.valueOf("Oncreate"));
     }
 
 }

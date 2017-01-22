@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">S1 - ServeiApp</string>
+    <string name="btn">Empezar</string>
+    <string name="start">Servicio ON</string>
+    <string name="stopped">Servicio OFF</string>
+</resources>

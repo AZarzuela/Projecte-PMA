@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">S1</string>
+    <string name="app_name" translatable="false">S1 - ServeiApp</string>
+    <string name="btn">Start</string>
+    <string name="start">Service started</string>
+    <string name="stopped">Stopped 5 sec</string>
 </resources>

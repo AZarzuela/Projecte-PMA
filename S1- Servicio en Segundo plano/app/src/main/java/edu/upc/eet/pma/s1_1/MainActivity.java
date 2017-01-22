@@ -34,8 +34,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, MyIntentService.class);
         startService(intent);
 
-        Log.i("5sec ", String.valueOf("StartService"));
-
 /*
         list = (ListView)findViewById(R.id.list);
         ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, sistemas);
