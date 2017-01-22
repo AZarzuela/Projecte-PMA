@@ -5,29 +5,29 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="27167109016239"
+    timestamp="31326315246756"
     token="2573380332615734501"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1001" />
+        duration="956" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="104" />
+        duration="475" />
     <task
         name="verifier"
-        duration="5" />
+        duration="52" />
 
     <artifact
         location="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="91452625719757"
+        timestamp="31326315246756"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/outputs/apk/app-debug.apk"
