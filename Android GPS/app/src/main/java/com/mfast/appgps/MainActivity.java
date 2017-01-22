@@ -203,16 +203,14 @@ public class MainActivity extends Activity {
 		public void onLocationChanged(Location loc) {
 			// Este metodo se ejecuta cada vez que el GPS recibe nuevas coordenadas
 			// debido a la deteccion de un cambio de ubicacion
-
 			loc.getLatitude();
 			loc.getLongitude();
-			/*String Text = "Mi ubicacion actual es: " + "\n Lat = "
-					+ loc.getLatitude() + "\n Long = " + loc.getLongitude();*/
 			String item_text =	String.valueOf(i)+ "- Lat =" + loc.getLatitude() + " Long = " + loc.getLongitude();
 			itemList.add(item_text);
 			setLocation(loc);
 			adapter.notifyDataSetChanged();
 			i++;
+
 		}
 
 		@Override
