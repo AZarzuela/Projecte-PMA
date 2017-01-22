@@ -28,6 +28,10 @@
         "source": "/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_dark.xml"
     },
     {
+        "merged": "/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/res/merged/debug/drawable/gps.png",
+        "source": "/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/src/main/res/drawable/gps.png"
+    },
+    {
         "merged": "/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
         "source": "/Users/victordelgadomartin/Documents/Projecte-PMA/Android GPS/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_text_light.xml"
     },

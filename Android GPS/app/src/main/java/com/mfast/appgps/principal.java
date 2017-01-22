@@ -7,7 +7,6 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Button;
 
 import java.util.ArrayList;
@@ -28,16 +27,16 @@ public class principal extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.boton);
 
-        button = (Button) findViewById(R.id.button);
+        //button = (Button) findViewById(R.id.button);
         itemList = new ArrayList<String>();
 
-        button.setOnClickListener(new View.OnClickListener() {
+        /*button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 pasar();
 
             }
-        });
+        })*/
 
     }
 
