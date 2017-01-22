@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">B3 - BluetoothApp</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="conectar">Conectar</string>
+    <string name="ko">El dispositivo está lejos</string>
+    <string name="ok">El dispositivo está cerca.</string>
+    <string name="no_compatible">No compatible</string>
+    <string name="salir">Salir</string>
+    <string name="bt_toast"></string>
+    <string name="no_suportado">Tu teléfono no soporta el bluetooth</string>
+    <string name="desactivado">Error al activar el bluetooth</string>
+    <string name="activado">Bluetooth activado</string>
+</resources>

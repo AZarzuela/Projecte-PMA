@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ArrayList<PositionItem> itemList;
     */
-    
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
